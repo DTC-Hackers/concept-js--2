@@ -47,7 +47,10 @@ const names = [
 // par + 2	    "Double Bogey"
 // >= par + 3	  "Go Home!"
 
-// golfScore(5, 4);
+// golfScore(1, 1) should return the string Hole-in-one!
+// golfScore(4, 1) should return the string Hole-in-one!
+// golfScore(4, 2) should return the string Eagle
+// golfScore(5, 2) should return the string Eagle
 // par and strokes will always be numeric and positive. We have added an array of all the names for your convenience.
 function golfScore(par, strokes) {
   // Only change code below this line
